@@ -6,7 +6,7 @@ function renderCart() {
 
   if (orderCart.length === 0) {
     container.innerHTML =
-      '<p class="empty-cart">Your cart is empty. <a href="index.html">Browse menu</a></p>';
+      '<p class="empty-cart">Your cart is empty. <a href="menu.html">Browse menu</a></p>';
     totalElement.textContent = "0.00";
     return;
   }
